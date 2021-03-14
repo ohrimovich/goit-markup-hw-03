@@ -16,8 +16,8 @@
 
 
     <!--Header-->
-    <header>
-        <nav>
+    <header class="header">
+        <nav class="container">
             <a class="logo" href="./index.html"><span class="text-logo">Web</span>Studio</a>
                 <ul class="nav-list list">
                     <li><a class="link current-page" href="./index.html">Студия</a></li>
@@ -25,7 +25,7 @@
                     <li><a class="link" href="">Контакты</a></li>
                 </ul>
         </nav>
-        <ul class="list contact-list">
+        <ul class="list contact-list container">
             <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
@@ -35,14 +35,17 @@
 
 
         <!--Hero-->
-        <section class="hero">
-            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <section class="hero section">
+            <div class="container">
+            <h1 class="hero-title">Эффективные решения<br>для вашего бизнеса</h1>
             <button class="hero-button" type="button">Заказать услугу</button>
+            </div>
         </section>
         
         
         <!--features-->
-        <section class="features">
+        <section class="features section">
+            <div class="container">
             <h2 class="visually-hidden">Особенности</h2>
             <ul class="list">
                 <li>
@@ -62,22 +65,26 @@
                     <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+            </div>
         </section>
         
         
         <!--What are we doing-->
-        <section class="occupation">
+        <section class="occupation section">
+            <div class="container">
             <h2 class="occupation-title">Чем мы занимаемся</h2>
             <ul class="list">
                 <li><img src="./images/development.jpg" alt="Разработка" width="370"></li>
                 <li><img src="./images/planning.jpg" alt="Планирование" width="370"></li>
                 <li><img src="./images/design.jpg" alt="Дизайн" width="370"></li>
             </ul>
+            </div>
         </section>
         
         
         <!--Our Team-->
-        <section class="team">
+        <section class="team section">
+            <div class="container">
             <h2 class="team-title">Наша команда</h2>
             <ul class="team-list list">
                 <li class="team-list-item">
@@ -101,6 +108,7 @@
                     <p class="team-list-item-text">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
    
@@ -108,12 +116,15 @@
 
     <!--Footer-->
     <footer class="footer">
+        <div class="container">
         <a class="logo dark-bg" href="./index.html"><span class="text-logo">Web</span>Studio</a>
-        <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
+        <address class="footer-address"> <a class="link" href="https://goo.gl/maps/Tkrdaqp9msqu5Cb39"
+                rel="noopener noreferrer nofollow" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></address>
         <ul class="list footer-contact-list">
             <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
+        </div>
     </footer>
 </body>
 </html>

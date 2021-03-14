@@ -4,6 +4,7 @@
   --secondary-text-color: #212121;
   --primary-white-color: #ffffff;
   --dark-background-color: #2f303a;
+  --secondary-background-color: #F5F4FA;
 }
 
 body {
@@ -25,6 +26,23 @@ body {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+}
+
+ul, p, h1, h2, h3, h4, h5, h6  {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  /* outline: solid 1px tomato; */
+}
+
+.header {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: solid 1px #ECECEC;
 }
 
 .link {
@@ -61,6 +79,7 @@ body {
 }
 
 .nav-list {
+  padding: 25px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -70,22 +89,29 @@ body {
 }
 
 .contact-list {
+  padding: 25px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
+.section {
+  padding-bottom: 94px;
+}
+
 .hero {
+  padding: 200px 0;
   background-color: var(--dark-background-color);
+  text-align: center;
 }
 
 .hero-title {
+  padding-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
 
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
@@ -93,13 +119,22 @@ body {
 }
 
 .hero-button {
+  padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+
+.features {
+  padding-top: 94px;
 }
 
 .features-title {
@@ -111,22 +146,36 @@ body {
   color: var(--secondary-text-color);
 }
 
+.occupation {
+  text-align: center;
+}
+
 .occupation-title {
+  padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
-  text-align: center;
 
   color: var(--secondary-text-color);
 }
 
+.team {
+  text-align: center;
+  background-color: var(--secondary-background-color);
+}
+
 .team-title {
+  padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
-  text-align: center;
 
   color: var(--secondary-text-color);
+}
+
+.team-list-item {
+  background-color:var(--primary-white-color);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-item-title {
@@ -143,6 +192,7 @@ body {
 }
 
 .footer {
+  padding: 60px 0;
   background-color: var(--dark-background-color);
 }
 
@@ -161,7 +211,23 @@ body {
 
 /* Potrfolio */
 
-.our-works-list-item button {
+.button {
+  padding: 6px 22px;
+  background: var(--secondary-background-color);
+  border-radius: 4px;
+  border: none;
+}
+
+.our-works {
+  padding-top: 94px;
+}
+
+.our-works-list {
+  padding-bottom: 50px;
+}
+
+
+.our-works-list-item-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -175,6 +241,10 @@ body {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   cursor: pointer;
+}
+
+.our-works-list-cards-item {
+  /* border: 1px solid #EEEEEE; */
 }
 
 .our-works-list-cards-item-title {

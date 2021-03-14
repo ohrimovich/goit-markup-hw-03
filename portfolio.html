@@ -15,8 +15,8 @@
 </head>
 <body>
     <!--Header-->
-    <header>
-        <nav>
+    <header class="header">
+        <nav class="container">
             <a class="logo" href="./index.html"><span class="text-logo">Web</span>Studio</a>
             <ul class="nav-list list">
                 <li><a class="link" href="./index.html">Студия</a></li>
@@ -24,7 +24,7 @@
                 <li><a class="link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="list contact-list">
+        <ul class="contact-list list container">
             <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
@@ -32,14 +32,15 @@
     
     <!-- Our works -->
     <main>
-        <section class="our-works">
+        <section class="our-works section">
+            <div class="container">
             <h1 class="visually-hidden">Наши Работы</h1>
             <ul class="our-works-list list">
-                <li class="our-works-list-item"><button class="our-works-list-item-button" type="button">Все</button></li>
-                <li class="our-works-list-item"><button class="our-works-list-item-button" type="button">Веб-сайты</button></li>
-                <li class="our-works-list-item"><button class="our-works-list-item-button" type="button">Приложения</button></li>
-                <li class="our-works-list-item"><button class="our-works-list-item-button" type="button">Дизайн</button></li>
-                <li class="our-works-list-item"><button class="our-works-list-item-button" type="button">Маркетинг</button></li>
+                <li class="our-works-list-item"><button class="our-works-list-item-button button" type="button">Все</button></li>
+                <li class="our-works-list-item"><button class="our-works-list-item-button button" type="button">Веб-сайты</button></li>
+                <li class="our-works-list-item"><button class="our-works-list-item-button button" type="button">Приложения</button></li>
+                <li class="our-works-list-item"><button class="our-works-list-item-button button" type="button">Дизайн</button></li>
+                <li class="our-works-list-item"><button class="our-works-list-item-button button" type="button">Маркетинг</button></li>
             </ul>
 
             <ul class="our-works-list-cards list">
@@ -50,28 +51,28 @@
                         <p class="our-works-list-cards-item-text">Веб-сайт</p>
                     </a>
                 </li>
-                <li>
+                <li class="our-works-list-cards-item">
                     <a>
                         <img src="./images/img-2.jpg" alt="Постер New Orlean">
                         <h2 class="our-works-list-cards-item-title">Постер New Orlean vs Golden Star</h2>
                         <p class="our-works-list-cards-item-text">Дизайн</p>
                     </a>
                 </li>
-                <li>
+                <li class="our-works-list-cards-item">
                     <a>
                         <img src="./images/img-3.jpg" alt="Ресторан Seafood">
                         <h2 class="our-works-list-cards-item-title">Ресторан Seafood</h2>
                         <p class="our-works-list-cards-item-text">Приложение</p>
                     </a>
                 </li>
-                <li>
+                <li class="our-works-list-cards-item">
                     <a>
                         <img src="./images/img-4.jpg" alt="Проект Prime">
                         <h2 class="our-works-list-cards-item-title">Проект Prime</h2>
                         <p class="our-works-list-cards-item-text">Маркетинг</p>
                     </a>
                 </li>
-                <li>
+                <li class="our-works-list-cards-item">
                     <a>
                         <img src="./images/img-5.jpg" alt="Проект Boxes">
                         <h2 class="our-works-list-cards-item-title">Проект Boxes</h2>
@@ -92,14 +93,14 @@
                         <p class="our-works-list-cards-item-text">Дизайн</p>
                     </a>
                 </li>
-                <li>
+                <li class="our-works-list-cards-item">
                     <a>
                         <img src="./images/img-8.jpg" alt="Проект LAB">
                         <h2 class="our-works-list-cards-item-title">Проект LAB</h2>
                         <p class="our-works-list-cards-item-text">Маркетинг</p>
                     </a>
                 </li>
-                <li>
+                <li class="our-works-list-cards-item">
                     <a>
                         <img src="./images/img-9.jpg" alt="Growing Business">
                         <h2 class="our-works-list-cards-item-title">Growing Business</h2>
@@ -107,17 +108,20 @@
                     </a>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
 
     <!--Footer-->
     <footer class="footer">
+        <div class="container">
         <a class="logo dark-bg" href="./index.html"><span class="text-logo">Web</span>Studio</a>
-        <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
+        <address class="footer-address"> <a class="link" href="https://goo.gl/maps/Tkrdaqp9msqu5Cb39" rel="noopener noreferrer nofollow" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></address>
         <ul class="list footer-contact-list">
             <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
+        </div>
     </footer>
 </body>
 </html>

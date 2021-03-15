@@ -16,18 +16,20 @@
 <body>
     <!--Header-->
     <header class="header">
-        <nav class="container">
-            <a class="logo" href="./index.html"><span class="text-logo">Web</span>Studio</a>
-            <ul class="nav-list list">
-                <li><a class="link" href="./index.html">Студия</a></li>
-                <li><a class="link current-page" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="link" href="">Контакты</a></li>
+        <div class="container">
+            <nav class="main-nav">
+                <a class="logo" href="./index.html"><span class="text-logo">Web</span>Studio</a>
+                <ul class="nav-list list">
+                    <li class="item"><a class="link" href="./index.html">Студия</a></li>
+                    <li class="item"><a class="link current-page" href="./portfolio.html">Портфолио</a></li>
+                    <li class="item"><a class="link" href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="list contact-list">
+                <li class="item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="contact-list list container">
-            <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
     
     <!-- Our works -->
@@ -79,14 +81,14 @@
                         <p class="our-works-list-cards-item-text">Приложение</p>
                     </a>
                 </li>
-                <li>
+                <li class="our-works-list-cards-item">
                     <a>
                         <img src="./images/img-6.jpg" alt="Inspiration has no Borders">
                         <h2 class="our-works-list-cards-item-title">Inspiration has no Borders</h2>
                         <p class="our-works-list-cards-item-text">Веб-сайт</p>
                     </a>
                 </li>
-                <li>
+                <li class="our-works-list-cards-item">
                     <a>
                         <img src="./images/img-7.jpg" alt="Издание Limited Edition">
                         <h2 class="our-works-list-cards-item-title">Издание Limited Edition</h2>
@@ -114,7 +116,7 @@
 
     <!--Footer-->
     <footer class="footer">
-        <div class="container">
+        <div class="container footer-paddings">
         <a class="logo dark-bg" href="./index.html"><span class="text-logo">Web</span>Studio</a>
         <address class="footer-address"> <a class="link" href="https://goo.gl/maps/Tkrdaqp9msqu5Cb39" rel="noopener noreferrer nofollow" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></address>
         <ul class="list footer-contact-list">

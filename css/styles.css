@@ -33,16 +33,12 @@ ul, p, h1, h2, h3, h4, h5, h6  {
   padding: 0;
 }
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  /* outline: solid 1px tomato; */
+img {
+  display: block;
 }
 
-.header {
-  padding-left: 15px;
-  padding-right: 15px;
-  border-bottom: solid 1px #ECECEC;
+.list {
+  list-style: none;
 }
 
 .link {
@@ -50,13 +46,22 @@ ul, p, h1, h2, h3, h4, h5, h6  {
   color: inherit;
 }
 
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* outline: solid 1px tomato; */
+}
+
+.header {
+  border-bottom: solid 1px #ECECEC;
+}
+
 .link:hover,
 .link:focus {
   color: var(--accent-color);
-}
-
-.list {
-  list-style: none;
 }
 
 .current-page {
@@ -64,6 +69,8 @@ ul, p, h1, h2, h3, h4, h5, h6  {
 }
 
 .logo {
+  display: block;
+  margin-right: 94px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -77,9 +84,19 @@ ul, p, h1, h2, h3, h4, h5, h6  {
 .text-logo {
   color: var(--accent-color);
 }
+.header>.container {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  
+}
 
 .nav-list {
-  padding: 25px 0;
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -88,12 +105,36 @@ ul, p, h1, h2, h3, h4, h5, h6  {
   color: var(--secondary-text-color);
 }
 
+.nav-list .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+
+
+.nav-list .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .contact-list {
-  padding: 25px 0;
+  display: flex;
+  margin-left: auto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.contact-list .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+
+.contact-list .item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .section {
@@ -102,12 +143,16 @@ ul, p, h1, h2, h3, h4, h5, h6  {
 }
 
 .hero {
-  padding: 200px 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--dark-background-color);
   text-align: center;
 }
 
 .hero-title {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -190,8 +235,12 @@ ul, p, h1, h2, h3, h4, h5, h6  {
 }
 
 .footer {
-  padding: 60px 0;
   background-color: var(--dark-background-color);
+}
+
+.footer-paddings {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-address {

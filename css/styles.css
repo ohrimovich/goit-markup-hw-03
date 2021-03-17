@@ -17,6 +17,8 @@ body {
   color: var(--main-text-color);
 }
 
+/* Reset Сlasses */
+
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -52,8 +54,9 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: solid 1px tomato; */
 }
+
+/* Header */
 
 .header {
   border-bottom: solid 1px #ECECEC;
@@ -229,6 +232,8 @@ img {
   margin-right: 30px;
 }
 
+/* Out Team */
+
 .team {
   text-align: center;
   background-color: var(--secondary-background-color);
@@ -275,6 +280,8 @@ img {
   font-size: 16px;
   line-height: 1.18;
 }
+
+/* Footer */
 
 .footer {
   background-color: var(--dark-background-color);
@@ -366,12 +373,12 @@ img {
   margin-bottom: 0;
 }
 
-.our-works-cards-list-item {
-  border: 1px solid #EEEEEE;
-}
 
 .our-works-cards-list-content {
- margin: 20px 24px; 
+ padding: 20px 24px; 
+ border-bottom: 1px solid #EEEEEE;
+ border-right: 1px solid #EEEEEE;
+border-left: 1px solid #EEEEEE;
 }
 
 .our-works-cards-list-item-title {

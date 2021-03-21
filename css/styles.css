@@ -37,6 +37,7 @@ ul, p, h1, h2, h3, h4, h5, h6  {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .list {
@@ -284,12 +285,9 @@ img {
 /* Footer */
 
 .footer {
-  background-color: var(--dark-background-color);
-}
-
-.footer-paddings {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: var(--dark-background-color);
 }
 
 .dark-bg {
@@ -378,7 +376,7 @@ img {
  padding: 20px 24px; 
  border-bottom: 1px solid #EEEEEE;
  border-right: 1px solid #EEEEEE;
-border-left: 1px solid #EEEEEE;
+ border-left: 1px solid #EEEEEE;
 }
 
 .our-works-cards-list-item-title {
